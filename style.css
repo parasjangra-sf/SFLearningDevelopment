@@ -1,0 +1,43 @@
+/* Page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+/* Load button */
+#loadBtn {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+/* Table styling */
+#userTable {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+/* Table header */
+#userTable th {
+  background-color: #eaeaea;
+  padding: 6px;
+}
+
+/* Table cells */
+#userTable td {
+  padding: 6px;
+  text-align: left;
+}
+
+/* Inputs inside table */
+#userTable input {
+  width: 95%;
+  padding: 4px;
+}
+
+/* Action buttons */
+button {
+  padding: 4px 8px;
+  margin-right: 4px;
+  cursor: pointer;
+}
