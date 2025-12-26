@@ -30,6 +30,69 @@ Immutability using deep cloning
 
 Dynamic rendering and state management
 
+
+JavaScript Concepts (Basic Understanding)
+
+Below are some JavaScript concepts that I understand and have learned while working on this assignment.
+
+What is Hoisting in JavaScript?
+
+Hoisting means that JavaScript moves variable and function declarations to the top of the code before execution.
+
+Variables declared with var are hoisted and get value undefined
+
+let and const are hoisted but cannot be used before declaration
+
+Function declarations are fully hoisted
+
+In simple words, JavaScript knows about variables and functions before the code runs.
+
+What are Closures?
+
+A closure is created when a function remembers variables from its outer function, even after the outer function has finished running.
+
+Closures are useful because:
+
+They help remember values
+
+They help keep data safe
+
+They are used to manage state in JavaScript
+
+What are Promises?
+
+Promises are used to handle asynchronous operations, like fetching data from a server.
+
+A promise can be in three states:
+
+Pending (operation is not finished)
+
+Fulfilled (operation is successful)
+
+Rejected (operation failed)
+
+Promises make asynchronous code easier to manage.
+
+What is Async–Await?
+
+async and await are used with promises to make asynchronous code easy to read and understand.
+
+async is written before a function
+
+await waits for the promise to complete before moving forward
+
+Async–await helps write cleaner and more readable code.
+
+Use of CSS in This Project
+
+CSS is used in this project to improve the layout and readability of the user interface.
+
+Basic CSS is applied to the table, buttons, and input fields
+
+CSS is linked using an external style.css file
+
+The styling is kept simple to focus on functionality
+
 Summary
 
 The assignment showcases how CRUD operations can be implemented using pure JavaScript with clean logic, safe data handling, and a user-friendly interface.
